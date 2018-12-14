@@ -8,7 +8,7 @@ Pada step ini docker compose itu didasarkan  pada file _docker-compose.yml_. Fil
 akan mendefinisikan semua kontainer yang ada dan penyettingan yang diperlukkan.
 Adapun format file nya adalah seperti gambar dibawah ini :
 
-![gambar 1](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss1.jpg)
+![gambar 1](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss1.jpg)
 
 B. Step 2 ( Menentukkan pengaturan )
 
@@ -18,11 +18,11 @@ Adapaun contoh propertinya adl sebagai berikut :
 
 + Properti untuk me link kan container dengan nama redis, yang querynya seperti berikut :
 
-![gambar 2](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss2.jpg)
+![gambar 2](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss2.jpg)
 
 + Properti untuk ports, yang querynya seperti dibawah ini :
 
-![gambar 3](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss3.jpg)
+![gambar 3](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss3.jpg)
 
 C. Step 3 ( Mendefinisikan kontainer kedua )
 
@@ -31,7 +31,7 @@ oleh karena itu kali ini kita akan menggunakan image yang ada di Docker Hub seba
 Untuk mendefinisikan kontainer kedua caranya hampir sama ketika membuat kontainer yang pertama tadi 
 adapun querynya adalah sebagai berikut :
 
-![gambar 4](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss4a.jpg)
+![gambar 4](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss4a.jpg)
 
 D. Step 4 ( docker Up )
 
@@ -39,7 +39,7 @@ Pada step ini dijelaskan bahwa setelah kita membuat file _docker-compose.yml_ ma
 dan jika kita ingin bersamaan memunculkanya di kontainer kita dapat menggunakan perintah _up <name>_
 Untuk lebih jelas menegnai query untuk memunculkan alikasi dan hasilnya dari yang sudah kita buat adl sbg berikut :
 
-![gambar 5](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss4b.jpg)
+![gambar 5](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss4b.jpg)
 
 E. Step 5 ( Memanajemen docker )
 
@@ -58,11 +58,11 @@ akan tetapi docker compose juga mampu mengatur semua kontainer dengan menggunaka
 
 Adapun hasil dari uji coba ketiga perintah tersebut adalah sebagai berikut :
 
-![gambar 6](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss5a.jpg)
+![gambar 6](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss5a.jpg)
 
-![gambar 7](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss5b1.jpg)
+![gambar 7](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss5b1.jpg)
 
-![gambar 8](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss5b2.jpg)
+![gambar 8](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss5b2.jpg)
 
 
 F. Step 6 ( Skala docker / Docker Scale )
@@ -73,7 +73,7 @@ query _docker-compose scale web=1_
 
 Adapun hasil dari query-query tersebut adalah sebagai berikut :
 
-![gambar 9](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss6.jpg)
+![gambar 9](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss6.jpg)
 
 
 
@@ -85,7 +85,7 @@ menghapus semua kontainer yang sudah dibuat maka menggunakan perintah _docker-co
 
 Adapun hasil dari query-query tersebut adalah sebagai berikut :
 
-![gambar 10](https://github.com/AnnisaFahma/docker_AnnisaFahma2/blob/master/gambar/ss7.jpg)
+![gambar 10](https://github.com/AnnisaFahma/tct_docker_annisa2/blob/master/gambar/ss7.jpg)
 
 
 ## Sekian praktik hari ini :)
